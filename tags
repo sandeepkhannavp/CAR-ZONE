@@ -1,0 +1,149 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+c	scripts/car.py	/^c = conn.cursor()$/;"	v
+c	scripts/cars_owned.py	/^c = conn.cursor()$/;"	v
+c	scripts/create_tables.py	/^c = conn.cursor()$/;"	v
+c	scripts/customers.py	/^c = conn.cursor()$/;"	v
+c	scripts/parts.py	/^c = conn.cursor()$/;"	v
+c	scripts/service.py	/^c = conn.cursor()$/;"	v
+c	scripts/services_done.py	/^c = conn.cursor()$/;"	v
+car	scripts/create_tables.sql	/^CREATE TABLE car($/;"	t
+car	scripts/services_done.py	/^    car = random.choice(cars)$/;"	v
+car.car_id	scripts/create_tables.sql	/^            car_id INTEGER PRIMARY KEY,$/;"	F
+car.cylinders	scripts/create_tables.sql	/^            cylinders INTEGER,$/;"	F
+car.fuel	scripts/create_tables.sql	/^            fuel TEXT,$/;"	F
+car.hp	scripts/create_tables.sql	/^            hp INTEGER,$/;"	F
+car.make	scripts/create_tables.sql	/^            make TEXT,$/;"	F
+car.model	scripts/create_tables.sql	/^            model TEXT,$/;"	F
+car.transmission	scripts/create_tables.sql	/^            transmission TEXT,$/;"	F
+car.wheels	scripts/create_tables.sql	/^            wheels TEXT$/;"	F
+car.year	scripts/create_tables.sql	/^            year INTEGER,$/;"	F
+car_id	scripts/car.py	/^    car_id = str(uuid.uuid4())$/;"	v
+car_id	scripts/cars_owned.py	/^        car_id = c.fetchall()$/;"	v
+car_id	scripts/cars_owned.py	/^        car_id = car_id[0][0]$/;"	v
+car_name	carzone.php	/^  $car_name = "%" . $car_name . "%";$/;"	v
+cars	scripts/services_done.py	/^    cars = []$/;"	v
+cars_owned	scripts/create_tables.sql	/^CREATE TABLE cars_owned ($/;"	t
+cars_owned.car_id	scripts/create_tables.sql	/^            car_id INTEGER,$/;"	F
+cars_owned.user_id	scripts/create_tables.sql	/^            user_id INTEGER,$/;"	F
+comment	scripts/service.py	/^comment = ["Never visiting again",$/;"	v
+compatibility	scripts/create_tables.sql	/^CREATE TABLE compatibility($/;"	t
+compatibility.car_id	scripts/create_tables.sql	/^            car_id INTEGER,$/;"	F
+compatibility.part_id	scripts/create_tables.sql	/^            part_id INTEGER,$/;"	F
+conn	scripts/car.py	/^conn = sqlite3.connect("..\/db\/main.db")$/;"	v
+conn	scripts/cars_owned.py	/^conn = sqlite3.connect("..\/db\/main.db")$/;"	v
+conn	scripts/create_tables.py	/^conn = sqlite3.connect('..\/db\/main.db')$/;"	v
+conn	scripts/customers.py	/^conn = sqlite3.connect("..\/db\/main.db")$/;"	v
+conn	scripts/parts.py	/^conn = sqlite3.connect("..\/db\/main.db")$/;"	v
+conn	scripts/service.py	/^conn = sqlite3.connect("..\/db\/main.db")$/;"	v
+conn	scripts/services_done.py	/^conn = sqlite3.connect("..\/db\/main.db")$/;"	v
+customer	scripts/create_tables.sql	/^CREATE TABLE customer($/;"	t
+customer.city	scripts/create_tables.sql	/^            city TEXT,$/;"	F
+customer.door_no	scripts/create_tables.sql	/^            door_no TEXT,$/;"	F
+customer.email	scripts/create_tables.sql	/^            email TEXT,$/;"	F
+customer.firstname	scripts/create_tables.sql	/^            firstname TEXT,$/;"	F
+customer.hash	scripts/create_tables.sql	/^            hash TEXT,$/;"	F
+customer.lastname	scripts/create_tables.sql	/^            lastname TEXT,$/;"	F
+customer.payment	scripts/create_tables.sql	/^            payment TEXT$/;"	F
+customer.phone_number	scripts/create_tables.sql	/^            phone_number TEXT,$/;"	F
+customer.pin	scripts/create_tables.sql	/^            pin INTEGER,$/;"	F
+customer.salt	scripts/create_tables.sql	/^            salt TEXT,$/;"	F
+customer.street	scripts/create_tables.sql	/^            street TEXT,$/;"	F
+customer.user_id	scripts/create_tables.sql	/^            user_id INTEGER PRIMARY KEY,$/;"	F
+d	scripts/service.py	/^    d = secrets.randbelow(10)$/;"	v
+date	scripts/service.py	/^    date = c.fetchall()$/;"	v
+date	scripts/service.py	/^    date = date[0][0]$/;"	v
+displayBrand	carzone.php	/^function displayBrand($rows){$/;"	f
+displayParts	carzone.php	/^function displayParts($rows){$/;"	f
+f	scripts/car.py	/^f = open("..\/res\/csv\/cars.csv")$/;"	v
+f	scripts/customers.py	/^f = open("..\/res\/csv\/customers.csv")$/;"	v
+fname	scripts/car.py	/^    fname = l[0] + l[1]$/;"	v
+getAllCars	carzone.php	/^function getAllCars(){$/;"	f
+getBrands	carzone.php	/^function getBrands()$/;"	f
+getCars	carzone.php	/^function getCars($car_name)$/;"	f
+getCarsByBrand	carzone.php	/^function getCarsByBrand($brand)$/;"	f
+getParts	carzone.php	/^  function getParts($id)$/;"	f
+hashlib	scripts/customers.py	/^import hashlib$/;"	i
+hashlib	scripts/service.py	/^import hashlib$/;"	i
+header	carzone.php	/^  $header = <<<'EOT'$/;"	v
+id	carzone.php	/^    $id = $row["car_id"];$/;"	v
+l	scripts/car.py	/^    l = x.split(',')$/;"	v
+l	scripts/customers.py	/^    l = x.split(",")$/;"	v
+m	scripts/service.py	/^    m = secrets.randbelow(60)$/;"	v
+make	carzone.php	/^    $make = $row["make"];$/;"	v
+name	carzone.php	/^    $name = $row["make"] . " " . $row["model"];$/;"	v
+name	carzone.php	/^    $name = $row["name"];$/;"	v
+name	scripts/parts.py	/^    name = random.choice(opt) + " Tail light"$/;"	v
+navbar	carzone.php	/^function navbar()$/;"	f
+opt	scripts/parts.py	/^opt = ["LED","Halogen"]$/;"	v
+part	scripts/create_tables.sql	/^CREATE TABLE part($/;"	t
+part	scripts/services_done.py	/^    part = random.choice(parts[car])$/;"	v
+part.name	scripts/create_tables.sql	/^            name TEXT,$/;"	F
+part.part_id	scripts/create_tables.sql	/^            part_id INTEGER,$/;"	F
+part.price	scripts/create_tables.sql	/^            price FLOAT);$/;"	F
+part_id	scripts/parts.py	/^    part_id = str(uuid.uuid4())$/;"	v
+parts	scripts/services_done.py	/^    parts = {}$/;"	v
+pdo	carzone.php	/^    $pdo = new PDO('sqlite:.\/db\/main.db');$/;"	v
+pdo	carzone.php	/^  $pdo = new PDO('sqlite:.\/db\/main.db');$/;"	v
+phsh	scripts/customers.py	/^    phsh = hashlib.sha256((salt+pswd).encode())$/;"	v
+phsh	scripts/customers.py	/^    phsh = phsh.hexdigest()$/;"	v
+price	carzone.php	/^    $price = $row["price"];$/;"	v
+price	scripts/parts.py	/^    price = random.randint(80,100)$/;"	v
+pswd	scripts/customers.py	/^    pswd = l[3]$/;"	v
+qs	carzone.php	/^  $qs = "SELECT * FROM car WHERE car_id > 0 ;";$/;"	v
+qs	carzone.php	/^  $qs = "SELECT * FROM car WHERE make = ?;";$/;"	v
+qs	carzone.php	/^  $qs = "SELECT * FROM car WHERE make LIKE ? OR model like ?;";$/;"	v
+qs	carzone.php	/^  $qs = "SELECT DISTINCT make FROM car where car_id != 0;";$/;"	v
+quantity	scripts/services_done.py	/^    quantity = random.randint(1,5)$/;"	v
+random	scripts/cars_owned.py	/^import random$/;"	i
+random	scripts/parts.py	/^import random$/;"	i
+random	scripts/services_done.py	/^import random$/;"	i
+rating	scripts/service.py	/^    rating = secrets.randbelow(4)$/;"	v
+res	scripts/parts.py	/^res = c.fetchall()$/;"	v
+res	scripts/services_done.py	/^        res = c.fetchall()$/;"	v
+res	scripts/services_done.py	/^res = c.fetchall()$/;"	v
+results	carzone.php	/^  $results = $pdo->prepare($qs);$/;"	v
+row	scripts/cars_owned.py	/^        row = {"user_id":x[0],"car_id":car_id}$/;"	v
+row	scripts/customers.py	/^    row = {'user_id':user_id,$/;"	v
+row	scripts/parts.py	/^    row = {'part_id':part_id,$/;"	v
+row	scripts/service.py	/^    row = {'service_id':service_id,$/;"	v
+row	scripts/services_done.py	/^    row = {'service_id':service_id[x],$/;"	v
+row2	scripts/parts.py	/^    row2 = {'car_id':i[0],$/;"	v
+rows	carzone.php	/^    $rows = $statement->fetchAll(PDO::FETCH_ASSOC);$/;"	v
+rows	carzone.php	/^  $rows = $results->fetchAll(PDO::FETCH_ASSOC);$/;"	v
+rows	carzone.php	/^  $rows = $statement->fetchAll(PDO::FETCH_ASSOC);$/;"	v
+salt	scripts/customers.py	/^    salt = ''.join(secrets.choice(string.ascii_uppercase + string.ascii_lowercase + string.digits) for i in range(8))$/;"	v
+secrets	scripts/customers.py	/^import secrets$/;"	i
+secrets	scripts/service.py	/^import secrets$/;"	i
+service_id	scripts/service.py	/^    service_id = hashlib.md5((date + str(secrets.randbelow(10)+1)).encode())$/;"	v
+service_id	scripts/service.py	/^    service_id = service_id.hexdigest()[:8]$/;"	v
+service_id	scripts/services_done.py	/^service_id = {}$/;"	v
+services_done	scripts/create_tables.sql	/^CREATE TABLE services_done($/;"	t
+services_done.part_id	scripts/create_tables.sql	/^            part_id INTEGER,$/;"	F
+services_done.service_id	scripts/create_tables.sql	/^            service_id INTEGER,$/;"	F
+sqlite3	scripts/car.py	/^import sqlite3$/;"	i
+sqlite3	scripts/cars_owned.py	/^import sqlite3$/;"	i
+sqlite3	scripts/create_tables.py	/^import sqlite3$/;"	i
+sqlite3	scripts/customers.py	/^import sqlite3$/;"	i
+sqlite3	scripts/parts.py	/^import sqlite3$/;"	i
+sqlite3	scripts/service.py	/^import sqlite3$/;"	i
+sqlite3	scripts/services_done.py	/^import sqlite3$/;"	i
+statement	carzone.php	/^    $statement = $pdo->prepare("select part.* from car inner join compatibility on car.car_id = compatibility.car_id or compatibility.car_id is 0 inner join part on part.part_id = compatibility.part_id where car.car_id is ? order by car.car_id;");$/;"	v
+statement	carzone.php	/^  $statement = $pdo->prepare($qs);$/;"	v
+statement	carzone.php	/^  $statement = $pdo->query($qs);$/;"	v
+string	scripts/customers.py	/^import string$/;"	i
+temp	scripts/service.py	/^temp = c.fetchall()$/;"	v
+temp	scripts/services_done.py	/^        temp = []$/;"	v
+temp	scripts/services_done.py	/^    temp = c.fetchall()$/;"	v
+user_id	scripts/cars_owned.py	/^user_id = c.fetchall()$/;"	v
+user_id	scripts/customers.py	/^    user_id = str(uuid.uuid4())$/;"	v
+user_id	scripts/services_done.py	/^user_id = []$/;"	v
+users	scripts/service.py	/^users = []$/;"	v
+uuid	scripts/car.py	/^import uuid$/;"	i
+uuid	scripts/customers.py	/^import uuid$/;"	i
+uuid	scripts/parts.py	/^import uuid$/;"	i
+val	scripts/car.py	/^    val = {'car_id': car_id,$/;"	v
