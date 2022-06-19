@@ -9,10 +9,10 @@ available car parts and accessories, service log, invoice and feedback.
 STACK - Writtten using the good old PHP , DataBase - sqlite3
 
 ## MODULES 
---> Login/Sign up portal for customers
---> Admin portal for maintenance
---> Shopping cart and checkout system with support for credit cards and discounts
---> Displaying all the available cars and spare parts
+--> Login/Sign up portal for customers \
+--> Admin portal for maintenance \
+--> Shopping cart and checkout system with support for credit cards and discounts \
+--> Displaying all the available cars and spare parts \
 --> Feedback
 
 ## SCHEMA
